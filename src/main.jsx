@@ -8,9 +8,10 @@ import { Sexto } from './Sexto.jsx'
 import { Septimo } from './Septimo.jsx'
 import { CounterApp } from './CounterApp/CounterApp.jsx'
 import { AppCounter } from './CounterApp/AppCounter.jsx'
+import { SimpleForm } from './Components/SimpleForm.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AppCounter></AppCounter>
+    <SimpleForm></SimpleForm>
   </StrictMode>
 )
