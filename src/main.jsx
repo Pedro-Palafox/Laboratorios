@@ -4,11 +4,12 @@ import './index.css'
 import { MyApp } from './MyApp.jsx'
 import World from './World.jsx'
 import { Myapp2 } from './MyApp2.jsx'
+import { Sexto } from './Sexto.jsx'
+import { Septimo } from './Septimo.jsx'
+import { CounterApp } from './CounterApp/CounterApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <World></World>
-    <MyApp></MyApp>
-    <Myapp2></Myapp2>
-  </StrictMode>,
+    <CounterApp value = {29} counter = {22}>  </CounterApp>
+  </StrictMode>
 )
