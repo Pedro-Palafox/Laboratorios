@@ -9,9 +9,11 @@ import { Septimo } from './Septimo.jsx'
 import { CounterApp } from './CounterApp/CounterApp.jsx'
 import { AppCounter } from './CounterApp/AppCounter.jsx'
 import { SimpleForm } from './Components/SimpleForm.jsx'
+import { PokemonCard } from './Components/Card.jsx'
+import { CustomHook } from './Components/CustomHook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <SimpleForm></SimpleForm>
+    <CustomHook></CustomHook>
   </StrictMode>
 )
